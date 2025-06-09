@@ -15,6 +15,13 @@
 
             function seleciona(localizaLista){
                 nomeComparado = document.localizaLista.NOME.value;
+                turmaComparado = document.localizaLista.TURMA.value;
+                    let i = 0;
+                    document.write("<table border=1>");
+
+                    document.write("</table>")
+
+                
             }
 
 
@@ -36,7 +43,6 @@
             <tr bgcolor="FKAGXJ">
                 <td width=40 align="center">Nome</td>
                 <td width=40 align="center"><input NAME="NOME" VALUE=""></td>
-
                 <td width=40 align="center">Turma</td>
                 <td width=40 align="center"><input NAME="TURMA" VALUE=""></td>
             </tr>
@@ -46,10 +52,6 @@
                 </td>
             </tr>
         </table>
-
     </form>
-
-
-
 </body>
 </html>
